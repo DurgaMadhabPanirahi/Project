@@ -1,0 +1,45 @@
+
+form{
+    border: 1px solid black;
+    width: 70%;
+    margin-left:15%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+#one,#two{
+    text-align: center;
+}
+#three,#four,#seven,#eight,#nine,#ten,#thirteen,#fourteen{
+    width: 30%;
+    margin-left:2%;
+    width: max-content;
+}
+#five,#six,#eleven,#twelve,#fifteen,#sixteen{
+width: 90%;
+margin-left: 2%;
+height:5%;
+}
+#seventeen{
+    margin-left: 90%;
+    text-align: center;
+
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+    margin-left: 2%;
+}
+
+#A,#B,#C,#D,#E,#F,#G,#I,#H{
+    width: 90%;
+    margin-left: 2%;
+
+}
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j{
+    margin-left: 2%;
+}
+body{
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+}
+#gm,#xxx{
+    color: red;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multiple registration form</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Demo.js"></script>
+</head>
+<body>
+    <form onsubmit="return fun()"  action="two.html" >
+        <h1 id="one">College Registration Form</h1>
+        <pre id="two">Thank you for applying to our college.Please fill in the form below to complete
+             the registration process for admission
+        </pre>
+        <label class="one">Name</label>
+        <span>*</span>
+        <br>
+        <input type="text" placeholder="First" required id="three">  <input type="text" placeholder="Last" required id="four"><br><br>        
+        <label class="two">Date Of Birth</label>
+        <span>*</span>
+        <br>
+        <input type="date" required id="five"><br><br>
+        <label class="three">Emali</label>
+        <span id="gm">*</span>
+        <br>
+        <input type="text" required id="six"><br><br>
+        <label class="four">Father'sname</label>
+        <span>*</span>
+        <br>
+        <input type="text" placeholder="First" required id="seven">  <input type="text" placeholder="Last" required id="eight"><br><br>
+        <label class="five">Mother'sname</label>
+        <span>*</span>
+        <br>
+        <input type="text" placeholder="First" required id="nine">  <input type="text" placeholder="Last" required id="ten"><br><br>
+        <label class="six">Gender</label>
+         <br>
+         <br>
+        <input type="radio" name="one">
+        <label class="twelve">M</label>
+        <br>
+        <br>
+        <input type="radio" name="one">
+        <label class="eleven">F</label><br><br>
+        <label class="seven">Nationality</label>
+        <span>*</span>
+        <input type="text" required id="eleven"><br><br>
+        <label class="eight">Home Address</label>
+        <span>*</span>
+        <input type="text" placeholder="Street Address" id="twelve"><br><br>
+        <input type="text" placeholder="City" id="thirteen">
+        <input list="Country"  placeholder="Country" id="fourteen">
+        <datalist id="Country">
+            <option>India</option>
+            <option>USA</option>
+            <option>Australia</option>
+            <option>England</option>
+            <option>Germany</option>
+         </datalist><br><br>
+         <label class="nine">Telephone-Home</label>
+         <br>
+         <input type="text" id="fifteen"><br><br>
+         <label class="ten">Telephone-Mobile</label>
+         <span id="xxx">*</span>
+         <br>
+         <input type="text" placeholder="### ### ####" required id="sixteen"><br><br>
+         <input type="submit" value="Next" id="seventeen">
+         </form>
+</body>
+</html>

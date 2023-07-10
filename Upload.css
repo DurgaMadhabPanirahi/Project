@@ -1,0 +1,17 @@
+form{
+    border: 1px solid black;
+    margin-left: 30%;
+    width: 45%;
+    margin-top: 10%;
+    background-color:#A0BFE0;
+}
+h1{
+    text-align: center;
+}
+#Nine{
+    margin-left: 40%;
+}
+body{
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+}
